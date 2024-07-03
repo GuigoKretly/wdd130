@@ -15,10 +15,10 @@ h2 {
 	text-shadow: 3px 3px 5px #777;
 }
 
-.herodiv {
+/* .herodiv {
 	margin: 10px auto;
 	/* If removed, what happens? */
-}
+/* } */ 
 
 .herodiv img {
 	width: 100%;

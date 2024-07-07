@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+:root {
+    --heading-font: 'Croissant One', serif;
+    --paragraph-font: 'Noto Sans Armenian', serif;
+
+    --primary-color: #49D4C6; 
+    --secondary-color: #FDFFFC; 
+    --accent1-color: #E71D36; 
+    --accent2-color: #FF9F1C;
+
+    --nav-background-color: #8be4db;
+    --nav-link-color: #2fc6b7;
+    --nav-hover-link-color: #239589;
+    --nav-hover-background-color: #13534c;
+
+    max-width: 100%;
+
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.happyc img {
+    position: absolute;
+}
+.herodiv {
+	margin: 10px auto;
+	position: relative; 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    padding: 25px;
+}

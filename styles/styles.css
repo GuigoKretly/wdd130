@@ -42,16 +42,16 @@ aside {
     text-align: center;
     position: relative;
 }
-aside image{
+aside image {
     width: 200px;
     height: auto;
 }
-aside h2{ 
+aside h2 { 
     position: absolute;
     top: 20px;
     left: 130px;
 }
-main img{
+main img {
     width: 150px;
     height: auto;
     float: right;

@@ -29,7 +29,7 @@ header {
 	display: grid;
 	grid-template-columns: auto 1fr 2fr;
 	align-items: center;
-	padding: 20px;
+	padding: 10px;
     
 }
 header img {
@@ -190,7 +190,7 @@ footer {
 }
   
 footer p {
-  padding: 0px 100px 0 200px;
+  padding: 0px 10px 0 10px;
 }
 .sociallinks {
   display: flex;

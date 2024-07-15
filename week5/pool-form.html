@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta author="author" content="Guigo Kretly"/>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Guigo Kretly | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label>Full Name: <input type="text" name="fullname"></label>
+                </div>
+                <div class="form-item column2">
+                    <label>Email: <input type="email" name="useremail"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser?</label>
+                <div class="form-item column1">
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chorme</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                    </select>
+                </div>    
+                <label for="pet">Do you have a household pet?</label>
+                <div class="form-item column1"> 
+                    <input type="checkbox" id="pet" name="pet">
+                </div>    
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="São Paulo - Brazil, Minas Gerais - Brazil, Santa Catarina - Brazil, Mato Grosso - Brazil"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | HTML Form - User Poll Activity | Guigo Kretly</p>
+    </footer>
+</body>
+</html>

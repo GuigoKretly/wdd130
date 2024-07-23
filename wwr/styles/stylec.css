@@ -1,0 +1,207 @@
+/* Global Styles */
+
+html {
+    display: flex;
+    justify-content: center;
+  }
+  
+  body {
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 20px;
+}
+  
+header img {
+    width: 240px;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+  
+.menu a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-right: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main h1 {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 800px;
+    width: 800px;
+    padding: 25px 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #002366;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.call-to-action h2 {
+    margin-bottom: 20px;
+}
+
+.call-to-action .btn {
+    background-color: #002366;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Grid Layout Section */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 180px;
+}
+
+.grid-item h3 {
+    margin-top: 20px;
+}
+
+.grid-item p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    padding: 0px 100px 0 200px;
+  }
+  
+  .sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .sociallinks a {
+    margin-left: 10px;
+  }
+  
+  .sociallinks a img {
+    max-width: 100%;
+    width: 38px;
+    height: auto;
+  }
+  
+  .trip-description img{
+    width: 240px;
+  }

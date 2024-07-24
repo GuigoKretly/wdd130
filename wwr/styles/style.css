@@ -14,6 +14,7 @@ html {
 }
 
 /* Header */
+
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -22,7 +23,7 @@ header {
 }
   
 header img {
-    width: 240px;
+    width: 150px;
 }
 
 .menu {
@@ -50,7 +51,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -78,7 +79,7 @@ main {
 
 main h1 {
     position: absolute;
-    top: 13%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -183,7 +184,7 @@ footer {
   }
   
   footer p {
-    padding: 0px 100px 0 200px;
+    padding: 0px 25px 0 25px;
   }
   
   .sociallinks {

@@ -34,7 +34,7 @@ header {
 }
 
 header img {
-  width: 240px;
+  width: 150px;
 }
 
 .menu {
@@ -85,7 +85,7 @@ header img {
 
 .hero article img {
   float: right;
-  width: 250px;
+  width: 400px;
 }
 
 .hero article p {
@@ -103,7 +103,7 @@ header img {
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
   position: relative;
   margin-left: 14%;
   margin-top: 30%;
@@ -168,7 +168,7 @@ footer {
 }
 
 footer p {
-  padding: 0px 100px 0 200px;
+  padding: 0px 10px 0 10px;
 }
 
 .sociallinks {
@@ -224,4 +224,7 @@ footer p {
 iframe {
   width: 100%;
   height: 240px;
+}
+table, th, td {
+  border: 1px solid;
 }

@@ -1,49 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+:root {
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent1-color: #a43312;
+    --accent2-color: #381d2a;
+
+    --heading-font: 'Croissant One', serif;
+    --paragraph-font: 'Noto Sans Armenian', serif;
+
+    --nav-background-color: #396e94;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #e7c24f;
+    --nav-hover-background-color: #a43312;
+}
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
-:root {
-    --primary-color: #49D4C6; 
-    --secondary-color: #FDFFFC; 
-    --accent1-color: #E71D36; 
-    --accent2-color: #FF9F1C;
 
-    --heading-font: 'Croissant One', serif;
-    --paragraph-font: 'Noto Sans Armenian', serif;
-
-    --nav-background-color: #8be4db;
-    --nav-link-color: #2fc6b7;
-    --nav-hover-link-color: #239589;
-    --nav-hover-background-color: #13534c;
-
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+
 header { 
     padding: 20px;
     background-color: var(--accent1-color);
 }
+
 p {
     padding: 25px;
 }
+
 nav {
     background-color: var(--nav-hover-background-color);
     font-size: 1.2rem;
     display: flex;
 }
+
 nav a { 
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
+
 nav a:link, nav a:visited {
     color: var(--vav-link-color);
 }
+
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
